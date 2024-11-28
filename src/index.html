@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./assets/css/flickity.css" rel="stylesheet">
+<body>
+    <!-- HEADER -->
+    <div class="bg-red">
+        <div class="wrapper">
+            <div class="flex items-center justify-between pt-[7px]">
+                <!-- MENU PERTAMA -->
+                <div class="flex items-center gap-x-[8.5px]">
+                    <a href="#" class="font-inter font-bold text-xs text-white ">Halaman Utama Shopee</a>
+                    <img src="./assets/line.svg" alt="">
+                    <a href="#" class="font-inter font-medium text-xs text-white ">Mulai Berjualan</a>
+                    <img src="./assets/line.svg" alt="">
+                    <a href="#" class="font-inter font-medium text-xs text-white ">Download</a>
+                    <img src="./assets/line.svg" alt="">
+                    <div class="flex  items-center gap-x-[4px]">
+                        <p class="font-inter font-medium text-xs text-white">Ikuti Kami di </p>
+                        <a href="#">
+                            <img src="./assets/ic_facebook.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/ic_instagram.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./assets/ic_kampus_shopee.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- MENU PERTAMA -->
+
+                <!-- MENU KEDUA -->
+                <div class="flex items-center gap-x-[8.5px]">
+                    <div class="flex items-center gap-x-2">
+                        <img src="./assets/ic_notification.svg" alt="">
+                        <a href="#" class="font-inter text-white text-xs">Nofikasi</a>
+                    </div>
+                    <div class="flex items-center gap-x-2">
+                        <img src="./assets/ic_help.svg" alt="">
+                        <a href="#" class="font-inter text-white text-xs">Bantuan</a>
+                    </div>
+                    <div class="flex items-center gap-x-2">
+                        <img src="./assets/ic_globe.svg" alt="">
+                        <a href="#" class="font-inter text-white text-xs">Bahasa Indonesia</a>
+                        <img src="./assets/ic_arrow.svg" alt="">
+                    </div>
+                    <a href="#" class="font-bold font-inter text-xs text-white">Daftar</a>
+                    <img src="./assets/line.svg" alt="">
+                    <a href="#" class="font-bold font-inter text-xs text-white">Log In</a>
+                </div>
+                <!-- MENU KEDUA -->
+            </div>
+        </div>
+
+        <div class="wrapper !py-7">
+            <div class="flex items-center justify-between">
+                <!-- SISI KIRI -->
+                 <div class="flex items-center">
+                   <a href="#"><img src="./assets/shopee.svg" alt="" class="pr-[10px]"></a>
+                    <img src="./assets/big_line.svg" alt="" class="pr-1">
+                    <a href="#"><img src="./assets/shopee_mall.svg" alt=""></a>
+                 </div>
+                <!-- SISI KIRI -->
+
+                <!-- SISI KANAN -->
+                 <div class="flex items-center gap-x-[18px]">
+                    <div class="relative flex">
+                        <input type="text" class="h-[38px] w-[510px] pl-[30px] py-[11px] font-inter font-medium text-xs placeholder:text-[#949494] text-black focus:outline-none" placeholder="Cari di Shopee Mall">
+                        <div class="absolute right-0 ">
+                            <button class="flex items-center justify-center h-[38px] w-[90px] text-center bg-red border-[1px] border-white">
+                                <img src="./assets/ic_magnifier.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <img src="./assets/ic_cart.svg" alt="">
+                    </a>
+                 </div>
+                <!-- SISI KANAN -->
+            </div>
+        </div>
+    </div>
+    <!-- HEADER -->
+
+    <!-- BODY -->
+     <div class="bg-grey">
+        <!-- BREADCUMB -->
+        <div class="wrapper mt-[18px] mb-[25px]">
+            <div class="flex items-center gap-x-[5px]">
+                <a href="#" class="text-[#5775C0] font-inter font-semibold text-xs">Shopee</a>
+                <img src="./assets/arrow_right.svg" alt="">
+                <a href="#" class="text-[#5775C0] font-inter font-semibold text-xs">Komputer & Aksesoris</a>
+                <img src="./assets/arrow_right.svg" alt="">
+                <a href="#" class="text-[#5775C0] font-inter font-semibold text-xs">Laptop</a>
+                <img src="./assets/arrow_right.svg" alt="">
+                <a href="#" class="text-[#5775C0] font-inter font-semibold text-xs">Laptop Konsumer</a>
+                <img src="./assets/arrow_right.svg" alt="">
+                <a href="#" class="text-[#6C6C6C] font-inter font-semibold text-xs">Apple Macbook Air (13.3 inchi, M1 2020) 8GB RAM, 256GB SSD, Space Grey</a>
+            </div>
+        </div>
+        <!-- BREADCUMB -->
+
+        <!-- DETAIL -->
+         <div class="wrapper bg-white shadow-md flex flex-col h-full">
+            <div class="flex flex-col">
+               <div class="flex gap-x-6 py-7 px-[45px] ">
+                 <!-- SISI KIRI -->
+                 <div class="flex flex-col">
+                    <img id="main_image" src="./assets/1.webp" alt="" class="w-[450px] h-[450px] object-contain">
+
+                    <div class="main-carousel px-[60px]">
+                        <img onclick="clickImage('image1')" src="./assets/1.webp" alt="" id="image1" class="h-[86px] object-cover mr-[17px] cursor-pointer">
+                        <img onclick="clickImage('image2')" src="./assets/2.webp" alt="" id="image2" class="h-[86px] object-cover mr-[17px] cursor-pointer">
+                        <img onclick="clickImage('image3')" src="./assets/5.webp" alt="" id="image3" class="h-[86px] object-cover mr-[17px] cursor-pointer">
+                        <img onclick="clickImage('image4')" src="./assets/1.webp" alt="" id="image4" class="h-[86px] object-cover mr-[17px] cursor-pointer">
+                        <img onclick="clickImage('image5')" src="./assets/2.webp" alt="" id="image5" class="h-[86px] object-cover mr-[17px] cursor-pointer">
+                        <img onclick="clickImage('image6')" src="./assets/5.webp" alt="" id="image6" class="h-[86px] object-cover mr-[17px] cursor-pointer">
+                        <img onclick="clickImage('image7')" src="./assets/1.webp" alt="" id="image7" class="h-[86px] object-cover mr-[17px] cursor-pointer">
+                    </div>
+                </div>
+                <!-- SISI KIRI -->
+
+                <!-- SISI KANAN -->
+                 <div class="flex flex-col">
+                    <p class="font-inter font-semibold text-[18px] text-black">Apple Macbook Air (13.3 inchi, M1 2020) 8GB RAM, 256GB SSD, Space Grey</p>
+                    <div class="flex items-center mt-[14px]">
+                        <p class="text-rose-700 font-inter font-semibold text-base underline pr-[5px]">5.0</p>
+                        <a href="#">
+                            <div class="flex items-center gap-x-[2.6px] pr-[15px]">
+                                <img src="./assets/star.svg" alt="">
+                                <img src="./assets/star.svg" alt="">
+                                <img src="./assets/star.svg" alt="">
+                                <img src="./assets/star.svg" alt="">
+                                <img src="./assets/star.svg" alt="">
+                            </div>
+                        </a>
+                        <div class="bg-[#F2F0EB] h-[21px] w-[2px] mr-[15px]"></div>
+                      <a href="#" class="flex">
+                        <p class="font-inter font-semibold text-base text-[#414141] pr-[5px] underline">40</p>
+                        <p class="font-inter font-semibold text-base text-[#888888]">Penilaian</p>
+                      </a>
+                    </div>
+                    <div class="mt-[15px] flex flex-col bg-[#FAFAFA] pb-[30px]">
+                        <div class="flex items-center px-10 pt-[10px]">
+                            <p class="font-inter font-semibold text-base text-[#888888] line-through pr-5">Rp 17.199.000</p>
+                            <p class="font-inter font-semibold text-4xl text-[#D0011B] pr-5">Rp 11.999.000</p>
+                            <div class="flex items-center justify-center bg-red px-[7px] py-[3px]">
+                                <p class="font-inter font-bold text-xs text-white">30% OFF</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-x-[12px] mt-5 mb-[25px] ml-[11px]">
+                            <img src="./assets/original.svg" alt="">
+                            <div class="flex flex-col gap-y-[4px]">
+                                <p class="font-inter text-xs text-[#D0011B]">Shopee Garansi 100% Ori</p>
+                                <p class="font-inter text-xs text-[#414141]">Garansi uang kembali jika produk tidak ori</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- RETURN -->
+                     <div class="flex items-center mt-[34px] gap-x-[38px]">
+                        <p class="text-[#888888] font-inter font-semibold text-xs">Return</p>
+                        <div class="flex gap-x-[3px]">
+                            <img src="./assets/free.png" alt="" class="h-[18.2px] object-contain">
+                            <p class="font-inter font-semibold text-xs">Bebas Pengembalian</p>
+                        </div>
+                        <div class="flex gap-x-[10px]">
+                            <p class="text-[#9E9E9E] font-inter font-semibold text-xs">Berlaku untuk Produk ini</p>
+                            <img src="./assets/ic_question.svg" alt="">
+                        </div>
+                     </div>
+                    <!-- RETURN -->
+                    <!-- PROTECTION -->
+                     <div class="flex items-center mt-[37px]">
+                        <p class="text-[#888888] font-inter font-semibold text-xs pr-[20px]">Protection</p>
+                        <p class="text-[#656565] font-inter font-semibold text-xs pr-[20px]">Proteksi <br> Gadget</p>
+                        <img src="./assets/new.svg" alt="" class="pr-[20px]">
+                        <p class="text-[#5775C0] font-inter font-semibold text-xs">Melindungi gadgetmu dari kerusakan akibat cairan atau <br> tidak disengaja hingga 12 bulan</p>
+                     </div>
+                    <!-- PROTECTION -->
+                    <!-- PENGIRIMAN -->
+                     <div class="flex mt-[30px]">
+                        <p class="text-[#888888] font-inter font-semibold text-xs pr-[20px]">Pengiriman</p>
+                        <div class="flex flex-col gap-y-[14px] ">
+                            <div class="flex items-center gap-x-[11px] pr-[60px]">
+                                <img src="./assets/ic_truck.svg" alt="">
+                                <p class="text-[#656565] font-inter font-semibold text-xs pr-[20px]">Pengiriman Ke</p>
+                            </div>
+                            <p class="text-[#656565] font-inter font-semibold text-xs pr-[20px] pl-[31px]">Ongkos Kirim</p>
+                        </div>
+
+                        <div class="flex flex-col gap-y-[14px]">
+                            <div class="flex items-center gap-x-[11px]">
+                                <p class="text-black font-inter font-bold text-xs ">KOTA JAKARTA PUSAT</p>
+                                <a href="#"><img src="./assets/ic_expand_arrow.svg" alt=""></a>
+                            </div>
+                            <div class="flex items-center gap-x-[11px]">
+                                <p class="text-[#656565] font-inter font-semibold text-xs pr-[3px]">Rp 36.000 - Rp 60.000</p>
+                                <a href="#"><img src="./assets/ic_expand_arrow.svg" alt=""></a>
+                            </div>
+                        </div>
+                     </div>
+                    <!-- PENGIRIMAN -->
+                    <!-- KUANTITAS -->
+                     <div class="flex mt-[23px] items-center">
+                        <p class="text-[#888888] font-inter font-semibold text-xs pr-[20px]">Kuantitas</p>
+                        <div class="flex">
+                            <button onclick="onReduce()" class="relative w-[22px] h-[18px] border-[1px] border-[#D9D9D9] font-semibold text-[#D9D9D9]">
+                                <p class="text-center absolute -top-1.5 left-[7px]">-</p>
+                            </button>
+                            <input type="text" name="qty" id="qty" class="focus:outline-none text-center w-[28px] h-[18px] border-[1px] border-[#D9D9D9] font-semibold placeholder:text-[#D9D9D9] text-xs text-black" value="1">
+                            <button onclick="onAdd()" class="relative w-[22px] h-[18px] border-[1px] border-[#D9D9D9] font-semibold text-[#D9D9D9]">
+                                <p class="text-center absolute -top-[5px] left-[4.5px]">+</p>
+                            </button>
+                        </div>
+                     </div>
+                    <!-- KUANTITAS -->
+                    <!-- BUTTON KERANJANG DAN BELI -->
+                    <div class="flex mt-[20px] gap-[57px]">
+                        <button class="flex items-center justify-center py-[9px] px-[16px] border-[1px] border-[#D0011B] gap-x-[9px] bg-[#F9EDED]">
+                            <img src="./assets/cart_plus.svg" alt="">
+                            <p class="text-[#D0011B] font-inter font-medium text-xs">Masukkan Keranjang</p>
+                        </button>
+
+                        <button class="flex items-center justify-center py-[9px] px-[16px] border-[1px] bg-[#D0011B] gap-x-[9px]">
+                            <p class="text-white font-inter font-bold text-xs">Beli Sekarang</p>
+                        </button>
+                    </div>
+                    <!-- BUTTON KERANJANG DAN BELI -->
+                 </div>
+                <!-- SISI KANAN -->
+               </div>
+
+
+               <div class="flex items-center pb-[24px] px-[28px]">
+                    <p class="font-inter font-medium text-black text-xs pr-[207px]">Share:</p>
+                    <p class="font-inter font-medium text-black text-xs pr-[112px]">Favorit (2RB)</p>
+                    <div class="flex items-center gap-x-[6px] pr-[119px]">
+                        <img src="./assets/return.png" alt="" class="h-[15px] w-[15px]">
+                        <p class="font-inter font-medium text-xs text-black">7 Hr Pengembalian</p>
+                    </div>
+                    <div class="flex items-center gap-x-[6px] pr-[119px]">
+                        <img src="./assets/ic_ori.svg" alt="">
+                        <p class="font-inter font-medium text-xs text-black">100% Ori</p>
+                    </div>
+                    <div class="flex items-center gap-x-[6px]">
+                        <img src="./assets/ic_gratis_ongkir.svg" alt="">
+                        <p class="font-inter font-medium text-xs text-black">Gratis Ongkir</p>
+                    </div>
+               </div>
+            </div>
+         </div>
+        <!-- DETAIL -->
+    </div>
+    <!-- BODY -->
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="./assets/js/flickity.pkgd.min.js"></script>
+<script>
+    $('.main-carousel').flickity({
+        // options
+        cellAlign: 'left',
+        contain: true,
+        pageDots: false,
+        wrapAround: true
+    });
+
+    function clickImage (idImage){
+        let image = $(`#${idImage}`).attr('src');
+        $('#main_image').attr('src', image)
+    }
+
+    function onAdd() {
+        let qty = +$('#qty').val();
+        qty += 1
+        
+        $('#qty').val(qty);
+    }
+
+    function onReduce(){
+        let qty = +$('#qty').val();
+
+        if(qty > 1) {
+            qty -= 1
+            $('#qty').val(qty);
+        }
+       
+    }
+</script>
+
+</html>
